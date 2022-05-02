@@ -200,3 +200,14 @@ header a:hover{
     background-color: #5e068a;
     transition: .5s;
 }
+
+footer{
+    height: 100px;
+    background-color: #2c1b35;
+}
+
+footer h1{
+    padding-top: 30px;
+    text-align: center;
+    color: white;
+}
