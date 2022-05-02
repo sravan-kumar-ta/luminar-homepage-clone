@@ -77,3 +77,42 @@ header a:hover{
     transition: .8s;
     background-color: #9e6ab9;
 }
+
+/* about area */
+.mt-95{
+    margin-top: 95px;
+}
+
+.about-container p,h3,h4{
+    line-height: 30px;
+    font-family: 'Muli' !important;
+}
+
+.about-container p{
+    margin-bottom: 5rem;
+    max-width: 565px;
+}
+
+.about-container h3{
+    padding-top: 25px;
+}
+
+.button-default{
+    background-color: #5e068a;
+    margin-top: 30px;
+    padding: 20px 40px;
+    font-weight: 600;
+    font-size: 16px;
+    border-radius: 50px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+    font-family: inherit;
+}
+
+.button-default:hover{
+    background-color: white;
+    color: #5e068a;
+    outline: #5e068a solid 3px;
+    transition: .3s;
+}
