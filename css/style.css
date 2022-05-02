@@ -31,3 +31,49 @@ header a:hover{
     color: white;
     transition: .5s;
 }
+
+.carousel-item img{
+    height: 500px;
+    filter: brightness(50%);
+}
+
+.carousel-item{
+    position: relative;
+}
+
+.carousel-caption{
+    position: absolute;
+    top: 20px;
+    text-align: left;
+    margin-left: 150px;
+    padding-top: 60px;
+}
+
+.carousel-caption h1{
+    font-size: 60px;
+    font-weight: bold;
+    font-family: 'Muli' !important;
+}
+
+.carousel-caption p{
+    width: 650px;
+    padding: 20px 0;
+    font-family: 'Muli' !important;
+}
+
+.slider-btn a{
+    background-color: #5e068a;
+    margin-top: 30px;
+    padding: 20px 40px;
+    font-weight: 600;
+    font-size: 16px;
+    border-radius: 50px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+}
+
+.slider-btn a:hover{
+    transition: .8s;
+    background-color: #9e6ab9;
+}
