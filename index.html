@@ -219,6 +219,41 @@
     <footer>
         <h1>Luminar website footer</h1>
     </footer>
+    <!-- Button trigger modal -->
+    <button type="button" class="modal-btn" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+        Modal
+    </button>
+
+    <!-- Modal -->
+    <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <h3>Get Training Quote for free</h3>
+                    <input type="text" class="input-field" placeholder="Name" required/><hr>
+                    <input type="email" class="input-field" placeholder="Email" required/><hr>
+                    <input type="tel" class="input-field" placeholder="Phone Number" required/><hr>
+                    <select class="input-field" required><hr>
+                        <option selected="true" disabled="true">Select Course interested in</option>
+                        <option>Data Science - ML - AI - Big Data with Cloud &amp; Tableau</option>
+                        <option>Python Django - Angular- Full Stack Web Development Expert</option>
+                        <option>Software Testing Specialist</option>
+                        <option>MEARN Stack Web Development Expert - Angular &amp; React</option>
+                        <option>Business Analytics - Power BI &amp; Tableau</option>
+                        <option>Android Developer Expert Training In Kochi- Flutter</option>
+                        <option>PYTHON -DATA SCIENCE with ML - AI - &amp; TABLEAU</option>
+                    </select><hr>
+                    <input type="text" class="input-field" placeholder="City" required/><hr>
+                    <textarea class="input-field" placeholder="Comments"></textarea><hr>
+                    <input type="hidden" name="web_location" value="https://www.luminartechnolab.com/">
+                    <input type="submit" class="btn-view modal-btn-submit" name="submit" placeholder="Submit">
+                </div>
+            </div>
+        </div>
+    </div>
 
 
     <!-- JavaScript Bundle with Popper -->
