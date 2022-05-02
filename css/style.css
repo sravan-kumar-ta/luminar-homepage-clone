@@ -211,3 +211,21 @@ footer h1{
     text-align: center;
     color: white;
 }
+
+@media screen and (max-width: 768px) {
+    header{
+        height: 60px;
+    }
+
+    .about-image-area{
+        display: none;
+    }
+
+    .about-container{
+        margin-bottom: 60px;
+    }
+
+    .course1-img{
+        max-width: 315px;
+    }
+}
